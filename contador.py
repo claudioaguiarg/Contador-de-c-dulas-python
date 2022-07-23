@@ -24,13 +24,25 @@ while valor >= 1:
 if nota01 != 0:
     print(f'Total de {nota01} cédulas de R$1')
 
-''' SISTEMA NOVO EM CONSTRUÇÃO
-r = (int(input('Cédula número um')),int(input('Cédula número dois')),int(input('Cédula número três')))
-valor = int(input('Valor '))
+'''
+r = (int(input('Cédula número um: ')),int(input('Cédula número dois: ')),int(input('Cédula número três: ')))
+valor = int(input('Valor a ser sacado: '))
 c1 = c2 = c3 = 0
 
 while valor >= r[0]:
     valor -= r[0]
     c1 += 1
 if c1 != 0:
-    print(f'Total de {c1} notas de {r[0]}')'''
+    print(f'Total de {c1} cédulas de R${r[0]}')
+while valor >= r[1]:
+    valor -= r[1]
+    c2 += 1
+if c2 != 0:
+    print(f'Total de {c2} cédulas de R${r[1]}')
+while valor >= r[2]:
+    valor -= r[2]
+    c3 += 1
+if c3 != 0:
+    print(f'Total de {c3} cédulas de R${r[2]}')
+    
+'''
