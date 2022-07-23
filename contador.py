@@ -1,5 +1,5 @@
 print('='*40)
-print('{:^40}'.format('BANCO LADRÃO'))
+print('{:^40}'.format('Contador de Cédulas'))
 print('='*40)
 valor = int(input('Digite o valor a ser sacado: '))
 nota50 = nota20 = nota10 = nota01 = 0
