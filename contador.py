@@ -15,3 +15,5 @@ for z in range(0,tip):
         ced2[z] += 1
     if ced2[z] != 0:
         print(f'Total de {ced2[z]} cédulas de R${ced[z]}')
+if valor !=0:
+    print(f'Sobrará R${valor}!')
