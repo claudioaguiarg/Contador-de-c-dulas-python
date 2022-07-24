@@ -6,7 +6,7 @@ for cont in range(1,tip+1):
     ced.append(int(input(f'Digite o valor da {cont}º cédula: ')))
 ced.sort(reverse=True)
 
-for c in range (1,tip+1):
+for c in range (0,tip):
     ced2.append(0)
 valor = int(input('Valor a ser sacado: '))
 for z in range(0,tip):
